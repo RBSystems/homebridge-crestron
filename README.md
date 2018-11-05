@@ -31,11 +31,17 @@ More to come!
 
 **Crestron Modules is a sample Simple reference，You can customize it according to your needs.**
 
-##Development document
-[install-homebridge-RaspberryPi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi)
-[homebridge-creskit](https://github.com/marcusadolfsson/homebridge-creskit)
-[homebridge](https://github.com/nfarina/homebridge)
-[homekit-types](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js)
-[homekit-Characteristic](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/Characteristic.js)
-[homebridge 多开+自启](https://github.com/nfarina/homebridge/issues/2054) 
+## Development document
+
+[install-homebridge-RaspberryPi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi).
+
+[homebridge-creskit](https://github.com/marcusadolfsson/homebridge-creskit).
+
+[homebridge](https://github.com/nfarina/homebridge).
+
+[homekit-types](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js).
+
+[homekit-Characteristic](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/Characteristic.js).
+
+[homebridge 多开+自启](https://github.com/nfarina/homebridge/issues/2054) .
 
