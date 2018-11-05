@@ -1,6 +1,6 @@
 # It‘s based on [homebridge-creskit](https://github.com/marcusadolfsson/homebridge-creskit)
 
-###QQ Group 107927710 
+### QQ Group 107927710 
 
 CresKit (together with Homebridge) turns Creston controlled devices into HomeKit accessories, enabling you to control many functions using Siri and the iOS 10 Home app. 
 
