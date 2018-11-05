@@ -5,7 +5,7 @@ CresKit (together with Homebridge) turns Creston controlled devices into HomeKit
 
 It is an early prototype, but functional. It requires you to install a Homebridge on an appropriate server before continuing. I use a $20 RaspberryPi, using this [tutorial](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi).
  
-As of CresKit 1.1.1 the following HomeKit accessories are supported:
+HomeKit accessories are supported:
 
 - Lights (dimming is enabled)
 - Switches (can also be used to for Creston Scenes)
@@ -28,3 +28,14 @@ On the Crestron side, the SIMPL+ Module acts as a basic TCP Server and communica
 - Event (Push Crestron status changes to Homebridge)
 
 More to come!
+
+**Crestron Modules is a sample Simple reference，You can customize it according to your needs.**
+
+##Development document
+[install-homebridge-RaspberryPi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi)
+[homebridge-creskit](https://github.com/marcusadolfsson/homebridge-creskit)
+[homebridge](https://github.com/nfarina/homebridge)
+[homekit-types](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js)
+[homekit-Characteristic](https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/Characteristic.js)
+[homebridge 多开+自启](https://github.com/nfarina/homebridge/issues/2054) 
+
