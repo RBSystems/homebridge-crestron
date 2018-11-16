@@ -172,6 +172,14 @@ CresKitAccessory.prototype = {
         }.bind(this));
     },
     setPowerState: function(value, callback) {
+        if(value)
+        {
+            value = 1;
+        }
+        else 
+        {
+            value = 0;
+        }
         //Do NOT send cmd to Crestron when Homebridge was notified from an Event - Crestron already knows the state!
         cresKitSocket.write(this.config.type + ":" + this.id + ":setPowerState:" + value + "*"); // (* after value required on set)
         callback();
