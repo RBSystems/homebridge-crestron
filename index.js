@@ -213,9 +213,10 @@ CresKitAccessory.prototype = {
 
         if (value == 0) {
             cresKitSocket.write(this.config.type + ":" + this.id + ":setLightBrightness:0*");
-        } else if (value == 1) { 
+        } 
+        /*else if (value == 1) { 
             cresKitSocket.write(this.config.type + ":" + this.id + ":setLightBrightness:999*"); //65536 = 100 if off, otherwise leave current
-        }
+        }*/
 
         callback();
     },
