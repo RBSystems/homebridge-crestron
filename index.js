@@ -1090,8 +1090,9 @@ CresKitAccessory.prototype = {
                 eventEmitter.on(this.config.type + ":" + this.id + ":eventCurrentPosition", function(value) {
                     
                     //PositionState.updateValue(state_value);
+                    TargetPosition.updateValue(value);
                     CurrentPosition.updateValue(value);
-                    TargetPosition.updateValue(value);                 
+                                     
                 }.bind(this));
 
                 services.push( windowCoveringService );
